@@ -43,3 +43,23 @@ The categories of the user's projects: i.e. sweater, soft-toy, ankle-socks are o
 3. Expand to crocheters, weavers.
 4. Layer more content based filtration: attributes (v-neck, seamless, toddler-sized) in addition to categories. 
 5. Keep tweaking models to improve RMSE. 
+
+## Repository Directory
+├── Data
+│   └── saved_100000_calls.csv
+├── PDFs
+│   ├── Capstone Project Technical Notebook - Knitting Pattern Recommender.pdf
+│   └── Proposal - Ravelry Project Recommender.pdf
+├── Visualizations
+│   ├── Capture1.PNG
+│   ├── Capture2.PNG
+│   ├── Capture3.PNG
+│   └── Rav1.png
+├── Pattern Recommender - Technical Notebook.ipynb
+├── Ravelry API Calls - Users and Projects.ipynb
+└── README.md
+
+## Reproduction Instructions
+This repository contains two jupyter notebooks. The first, Ravelry API Calls - Users and Projects contains the code for making requests of Ravelry's API. It makes 100s of thousands of calls and so unless you need to change it, the data from it is all available in the Data folder, stored in a .csv file. 
+The second notebook contains the modelling for the recommendation system, along with the CRISP-DM proces steps. 
+The second notebook also makes API calls, although they are user specific and take far less time. You will still need your own keys, see: https://www.ravelry.com/api.
