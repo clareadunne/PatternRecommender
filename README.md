@@ -45,6 +45,7 @@ The categories of the user's projects: i.e. sweater, soft-toy, ankle-socks are o
 5. Keep tweaking models to improve RMSE. 
 
 ## Repository Directory
+```
 ├── Data
 │   └── saved_100000_calls.csv
 ├── PDFs
@@ -58,7 +59,7 @@ The categories of the user's projects: i.e. sweater, soft-toy, ankle-socks are o
 ├── Pattern Recommender - Technical Notebook.ipynb
 ├── Ravelry API Calls - Users and Projects.ipynb
 └── README.md
-
+```
 ## Reproduction Instructions
 This repository contains two jupyter notebooks. The first, Ravelry API Calls - Users and Projects contains the code for making requests of Ravelry's API. It makes 100s of thousands of calls and so unless you need to change it, the data from it is all available in the Data folder, stored in a .csv file. 
 The second notebook contains the modelling for the recommendation system, along with the CRISP-DM proces steps. 
