@@ -66,4 +66,4 @@ The second notebook contains the modelling for the recommendation system, along 
 The second notebook also makes API calls, although they are user specific and take far less time. You will still need your own keys, see: https://www.ravelry.com/api.
 
 ## Link to Presentation
-https://docs.google.com/presentation/d/1iHKm3WFdCVLlytKyOuCT4rMsMPbM4e-v0ZL4h3bJMfg/edit?usp=sharing
+https://drive.google.com/file/d/1HxtcwWsDtODf_WTFMNXM971OFQpBQfvQ/view?usp=sharing
