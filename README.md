@@ -10,7 +10,13 @@ The aim of this project is to provide more tailored recommendations for knitting
 The data has all been obtained through the Ravelry.com API. Since the website does not have an app, it makes all of its content available through APIs, and at present there are 41 apps which make use of some or all of the websites functionality.
 
 The modelling features for a collaborative filtering recommender system are users, items and ratings. the model finds similarities between users based on their ratings of items, and uses these similarities to predict ratings for items for users who have not already rated them.
+
 ![alt text](https://github.com/clareadunne/PatternRecommender/blob/main/Vizualisations/Capture1.PNG)
+
+![alt text](https://github.com/clareadunne/PatternRecommender/blob/main/Vizualisations/Capture2.PNG)
+
+![alt text](https://github.com/clareadunne/PatternRecommender/blob/main/Vizualisations/Capture3.PNG)
+
 ## 3. Data Preparation
 The model was tested on the data with missing ratings removed, and then with missing ratings replaced with pattern averages. Replacing missing values with pattern averages negatively impacted the RMSE for SVD, so proceeded with the missing values dropped. 
 
