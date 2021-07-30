@@ -64,3 +64,6 @@ The categories of the user's projects: i.e. sweater, soft-toy, ankle-socks are o
 This repository contains two jupyter notebooks. The first, Ravelry API Calls - Users and Projects contains the code for making requests of Ravelry's API. It makes 100s of thousands of calls and so unless you need to change it, the data from it is all available in the Data folder, stored in a .csv file. 
 The second notebook contains the modelling for the recommendation system, along with the CRISP-DM proces steps. 
 The second notebook also makes API calls, although they are user specific and take far less time. You will still need your own keys, see: https://www.ravelry.com/api.
+
+## Link to Presentation
+https://docs.google.com/presentation/d/1iHKm3WFdCVLlytKyOuCT4rMsMPbM4e-v0ZL4h3bJMfg/edit?usp=sharing
