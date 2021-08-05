@@ -58,6 +58,8 @@ The categories of the user's projects: i.e. sweater, soft-toy, ankle-socks are o
 │   └── Rav1.png
 ├── Pattern Recommender - Technical Notebook.ipynb
 ├── Ravelry API Calls - Users and Projects.ipynb
+├── Functions.py
+├── streamlit_test.py
 └── README.md
 ```
 ## Reproduction Instructions
